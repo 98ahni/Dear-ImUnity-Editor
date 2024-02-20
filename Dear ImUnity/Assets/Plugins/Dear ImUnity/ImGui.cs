@@ -22,7 +22,7 @@ public class StartupWarning
                 "The Dear ImGui plug-in is currently only meant as a proof of concept. " +
                 "This means that stability is not guaranteed and many things are untested or unfinnished. " +
                 "\n\nIf you'd like to test things yourself, please look at \"TestWindow.cs\" and \"SceneGuiTest.cs\" as a reference. " +
-                "\n\n*Please note* that you are required by license to contribute any changes made to the files listed in \"readme.md\" " +
+                "\n\n*Please note* that you are required by license to contribute any changes made " +
                 "to https://github.com/98ahni/Dear-ImUnity-Editor.", "I understand");
         }
     }
