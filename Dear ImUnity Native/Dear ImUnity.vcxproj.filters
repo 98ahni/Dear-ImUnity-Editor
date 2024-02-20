@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\UnityAPI">
+      <UniqueIdentifier>{4a33c8b8-fae0-4b2e-9787-fa2229e2d8d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImGui">
+      <UniqueIdentifier>{7d687831-9dc2-4a2e-86b0-edf19677f699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImGui\backends">
+      <UniqueIdentifier>{4f4d501e-41a3-4edb-89af-01f7ccb69a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImGui\misc">
+      <UniqueIdentifier>{e8b6ccd2-4747-41e0-a094-1534b80b6816}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\backends\imgui_impl_dx11.h">
+      <Filter>Source Files\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\backends\imgui_impl_dx12.h">
+      <Filter>Source Files\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\backends\imgui_impl_metal.h">
+      <Filter>Source Files\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\backends\imgui_impl_osx.h">
+      <Filter>Source Files\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\backends\imgui_impl_win32.h">
+      <Filter>Source Files\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\misc\cpp\imgui_stdlib.h">
+      <Filter>Source Files\ImGui\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityAPI\IUnityEventQueue.h">
+      <Filter>Source Files\UnityAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityAPI\IUnityGraphics.h">
+      <Filter>Source Files\UnityAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityAPI\IUnityGraphicsD3D11.h">
+      <Filter>Source Files\UnityAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityAPI\IUnityGraphicsD3D12.h">
+      <Filter>Source Files\UnityAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityAPI\IUnityGraphicsMetal.h">
+      <Filter>Source Files\UnityAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityAPI\IUnityGraphicsVulkan.h">
+      <Filter>Source Files\UnityAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityAPI\IUnityInterface.h">
+      <Filter>Source Files\UnityAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityAPI\IUnityLog.h">
+      <Filter>Source Files\UnityAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityAPI\IUnityMemoryManager.h">
+      <Filter>Source Files\UnityAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityAPI\IUnityProfiler.h">
+      <Filter>Source Files\UnityAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityAPI\IUnityProfilerCallbacks.h">
+      <Filter>Source Files\UnityAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityAPI\IUnityRenderingExtensions.h">
+      <Filter>Source Files\UnityAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityAPI\IUnityShaderCompilerAccess.h">
+      <Filter>Source Files\UnityAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugLog.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\backends\imgui_impl_unity.h">
+      <Filter>Source Files\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\backends\imgui_impl_unity_event.h">
+      <Filter>Source Files\ImGui\backends</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\backends\imgui_impl_dx11.cpp">
+      <Filter>Source Files\ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\backends\imgui_impl_dx12.cpp">
+      <Filter>Source Files\ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\backends\imgui_impl_win32.cpp">
+      <Filter>Source Files\ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\misc\cpp\imgui_stdlib.cpp">
+      <Filter>Source Files\ImGui\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\misc\fonts\binary_to_compressed_c.cpp">
+      <Filter>Source Files\ImGui\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\backends\imgui_impl_unity.cpp">
+      <Filter>Source Files\ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imguiExp.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
